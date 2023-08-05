@@ -13,6 +13,16 @@ export default class Clinic {
    * @param {string} name - The name of the doctor to be removed.
    */
   removeDoctor(docName) {
+    // If there are no doctors currently in the clinic, return early
+    if (this.doctors.length < 1) {
+      console.log(
+        chalk.redBright(
+          "There are no doctors to remove currently. Go ahead and add them..."
+        )
+      );
+      return;
+    }
+
     const index = this.doctors.findIndex(
       (doctor) => doctor.docName === docName
     );
@@ -43,10 +53,11 @@ export default class Clinic {
    * Logs the list of available doctors in the clinic.
    */
   listDoctors() {
+    // If there are no doctors currently in the clinic, return early..
     if (this.doctors.length < 1) {
       console.log(
         chalk.redBright(
-          "There are currently no doctors. Go ahead and add doctors.."
+          "There are currently no doctors. Go ahead and add them.."
         )
       );
       return;
@@ -69,7 +80,7 @@ export default class Clinic {
     // Get the number of doctors available in the clinic
     const availDoctors = this.doctors.length;
 
-    // Determine the patient's doctor
+    // Determine the patient's default assigned doctor
     const assignedDoc = this.doctors[qNum % availDoctors];
 
     // Get the assigned doctor's avg consult time
@@ -81,9 +92,10 @@ export default class Clinic {
       estWaitTime = 0;
     }
 
+    // Calculate the number of patients ahead of the current patient for informational purposes..
+    const patientsAhead = Math.floor((qNum - 1) / availDoctors);
     const docName = assignedDoc.docName;
     const roomName = assignedDoc.roomName;
-    const patientsAhead = Math.floor((qNum - 1) / availDoctors);
     console.log(
       `\n${chalk.greenBright(
         "Doctor assigned"

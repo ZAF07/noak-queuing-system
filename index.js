@@ -73,7 +73,11 @@ const main = () => {
         console.log("Exiting...");
         process.exit(0);
       default:
-        console.log("Invalid choice. Try again.");
+        console.log(
+          chalk.redBright(
+            "Invalid choice. Read the options and enter a valid one."
+          )
+        );
     }
   }
 };
