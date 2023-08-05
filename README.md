@@ -82,3 +82,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 #### Question 2:
 
 **Suppose the case has changed – at the time John queues online, there are 14 patients ahead of him and while Doctor A is not seeing any patient (i.e. Doctor A is available), Doctor B is currently seeing the first patient, Lucas, who has been in the consultation room for the past 2 minutes. Assuming that the average consultation times per patient for both doctors remain as 3 minutes and 4 minutes respectively, what will John’s estimated waiting time be when he joins the queue?**
+
+### Answer:
+
+<p>John's estimated time would be either 21 or 22 minutes depending on which doctor was assigned to him considering that all patients here also has np preference on which doctor they would want to consult. The calculations remain the same as the above except that if John was assigned to Doctor B, and since Doctor B has already spent half his estimated consultation time, we could assume a deduction of total time by 2 minutes (half of Doctor B's average consultation time)</p>
