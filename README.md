@@ -44,6 +44,8 @@ To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
 #### C1 Question 1:
 
+[^](#table-of-contents)
+
 **When should the countdown in waiting time, i.e. from 15 minutes, start for John? The moment he queues online, or when the doctor starts seeing the first patient in the queue?**
 <br/>
 
@@ -58,6 +60,8 @@ To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 That way, there is constant communication between the doctors -> servers -> patients, and with that, we could potentially provide accurate average waiting times.  Since it is real-time, we can perform recalculations instantly for patients to be notified with the updated  average waiting time.</p>
 
 #### C1 Question 2:
+
+[^](#table-of-contents)
 
 **Suppose the case has changed – at the time John queues online, there are 7 patients ahead of him and the doctor is currently seeing one of the 7 patients, Peter. Assuming that the doctor’s average consultation time per patient is 4 minutes, what will John’s estimated waiting time be given that, at the time John joins the queue, Peter has already gone to the consultation room for the following durations?**
 **(a) 2 minutes (b) 5 minutes**
@@ -83,6 +87,8 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 #### C2 Question 1:
 
+[^](#table-of-contents)
+
 **Assuming that all the patients in the queue, including John, have no specific preferences for the doctors they want to consult, what will John’s estimated waiting time be when he joins the queue?**
 <br/>
 
@@ -97,6 +103,8 @@ That way, there is constant communication between the doctors -> servers -> pati
 <p>Upon receiving the request from a user to check thier waiting time (now that we already know which doctor a patient is assigned to), we can simply calculate each patient's waiting time by multiplying the doctor's estimated consult time by the number of patients in that doctors list,</p>
 
 #### C2 Question 2:
+
+[^](#table-of-contents)
 
 **Suppose the case has changed – at the time John queues online, there are 14 patients ahead of him and while Doctor A is not seeing any patient (i.e. Doctor A is available), Doctor B is currently seeing the first patient, Lucas, who has been in the consultation room for the past 2 minutes. Assuming that the average consultation times per patient for both doctors remain as 3 minutes and 4 minutes respectively, what will John’s estimated waiting time be when he joins the queue?**
 
