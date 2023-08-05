@@ -5,6 +5,7 @@
 - [C1 Question 2](#c1-question-2)
 - [C2 Question 1](#c2-question-1)
 - [C2 Question 2](#c2-question-2)
+
   > NOTE: This is the interactive version of the case study.
   > For simplicity, assume all the patients in the queue have no preference for the doctors they want to consult and all the doctors are available and not seeing any patient initially
 
