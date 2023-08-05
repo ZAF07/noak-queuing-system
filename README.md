@@ -1,3 +1,9 @@
+# Table of Contents
+
+- [Section 1](#Background)
+- [Section 2](#Question-1)
+- [Section 3](#section-3)
+
 > NOTE: This is the interactive version of the case study.
 > For simplicity, assume all the patients in the queue have no preference for the doctors they want to consult and all the doctors are available and not seeing any patient initially
 
