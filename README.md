@@ -24,7 +24,7 @@ To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 2. Run `npm install` to install all the dependencies
 3. Run `npm start` to start the CLI app
 
-# Background [back](#table-of-contents)
+# Background <span>[back](#table-of-contents)</span>
 
 **You are working on an online queuing system for clinics that only accept walk-in patients. Through this system, walk-in patients can now queue online and receive real-time updates to their waiting time. Unlike appointments, patients who queue online cannot select their preferred time slots – the system helps them secure a spot in the queue and provides real-time updates to their waiting time based on their queue status.**
 <br/>
