@@ -16,6 +16,7 @@
 > 3.  Get a patient's average waiting time to consultation
 
 **You will find the answers to the case study included in this README doc as well.(Scroll down to view)**
+
 To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
 **Starting the application locally**
