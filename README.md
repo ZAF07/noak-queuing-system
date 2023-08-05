@@ -40,7 +40,6 @@ A. 26 B. 24
 #####Part A:
 
 <p>John will have to wait a total of 26 minutes. Calculations are 4 minutes average time x 6 (full average duration for people who are still waiting themselves) + 2 (time left for Peter’s consultation)</P>
-<br/>
 
 ##### Part B:
 
