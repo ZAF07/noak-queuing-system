@@ -1,5 +1,7 @@
 # Interactive CLI for queuing system
 
+**You will find the answers to the case study included in this README doc as well.(Scroll down to view)**
+
 ### Table of Contents
 
 - [Background](#background)
@@ -16,8 +18,6 @@
 > 1.  Add/remove doctors from the clinic
 > 2.  List all the doctors in the clinic
 > 3.  Get a patient's average waiting time to consultation
-
-**You will find the answers to the case study included in this README doc as well.(Scroll down to view)**
 
 To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
