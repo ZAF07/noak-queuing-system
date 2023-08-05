@@ -1,4 +1,6 @@
-# Table of Contents
+# Interactive CLI for queuing system
+
+### Table of Contents
 
 - [Background](#background)
 - [C1 Question 1](#c1-question-1)
