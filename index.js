@@ -19,10 +19,10 @@ const addDoctorToClinic = (clinic) => {
   console.log(chalk.bgYellow("\n--- Add Doctor ---"));
   const avgTime = parseInt(
     question(
-      chalk.bgYellow.white("Enter average consultation time (in minutes): ")
+      chalk.bgYellow.white("Enter average consultation time (in minutes): \t")
     )
   );
-  const doctorName = question(chalk.bgYellow("Enter doctor name: "));
+  const doctorName = question(chalk.bgYellow("Enter doctor name: \t"));
 
   const newDoctor = new Doctor(avgTime, doctorName);
   clinic.addDoctor(newDoctor);
@@ -32,10 +32,17 @@ const addDoctorToClinic = (clinic) => {
 
 const removeDoctor = (clinic) => {
   console.log(chalk.bgYellowBright("\n--- Remove Doctor ---"));
-  const docName = question(chalk.bgRedBright("Enter Doctor name: "));
+  const docName = question(chalk.bgRedBright("Enter Doctor name: \t"));
   clinic.removeDoctor(docName);
 };
 
+const getWaitTime = (clinic) => {
+  console.log(chalk.bgYellowBright("\n--- Get average wait time ---"));
+  const qNum = parseInt(
+    question(chalk.bgYellowBright("Enter your Q number: \t"))
+  );
+  clinic.getWaitTime(qNum);
+};
 const main = () => {
   const clinic = new Clinic();
 
@@ -60,7 +67,7 @@ const main = () => {
         removeDoctor(clinic);
         break;
       case 4:
-        clinic.getWaitTime(clinic);
+        getWaitTime(clinic);
         break;
       case 0:
         console.log("Exiting...");
@@ -71,10 +78,3 @@ const main = () => {
   }
 };
 main();
-
-// const removeDoctor = (clinic) => {
-//   console.log(chalk.bgYellowBright("\n--- Remove Doctor ---"));
-//   const docName = question(chalk.bgRedBright("Enter Doctor name: "));
-
-//   clinic.removeDoctor(docName);
-// };
