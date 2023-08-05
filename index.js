@@ -1,6 +1,8 @@
 /* 
 This is the interactive version of the queuing system.
 
+For simplicity, assume all the patients in the queue have no preference for the doctors they want to consult and all the doctors are available and not seeing any patient initially
+
 1. You can add/remove doctors from the clinic
 2. You can list all the doctors in the clinic
 3. You can get a patient's average waiting time to consultation
