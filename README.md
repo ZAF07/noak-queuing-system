@@ -1,3 +1,5 @@
+## Bonus Section Algorithm
+
 ### Table of Contents
 
 - [Background](#background)
@@ -5,8 +7,6 @@
 - [C1 Question 2](#c1-question-2)
 - [C2 Question 1](#c2-question-1)
 - [C2 Question 2](#c2-question-2)
-
-## Bonus Section Algorithm
 
 This is the plain implementatioin of the bonus section given in the case study.
 
