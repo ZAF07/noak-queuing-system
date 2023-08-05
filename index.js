@@ -7,6 +7,7 @@ For simplicity, assume all the patients in the queue have no preference for the 
 2. You can list all the doctors in the clinic
 3. You can get a patient's average waiting time to consultation
 
+NOTE: To view the plain algorithm by without the interaction features (following rules as stated in the Bonus Section), checkout the 'bonus' branch: $ <git checkout bonus>
 */
 import chalk from "chalk";
 import { question, questionInt } from "readline-sync";
