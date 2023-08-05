@@ -73,6 +73,12 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 <p>John's estimated waiting time could be either 24 or 21 minutes depending on which doctor was automatically assigned to him (since all patients had no preferences for the doctors they want to consult). </p>
 
+#### Solution
+
+<p>To achieve concsistency here, we should implement server-side logic to first check if patients have any preferences for the doctors they consult. If so, add them them to the list of patients assigned to each doctor and to automatically assign them to Doctors if they don't have preferences. We could implement the round-robin algorithm among many other load balancing algorithm for patients W/O any preferences.</p>
+
+<p>Upon receiving the request from a user to check thier waiting time (now that we already know which doctor a patient is assigned to), we can simply calculate each patient's waiting time by multiplying the doctor's estimated consult time by the number of patients in that doctors list,</p>
+
 #### Question 2:
 
 **Suppose the case has changed – at the time John queues online, there are 14 patients ahead of him and while Doctor A is not seeing any patient (i.e. Doctor A is available), Doctor B is currently seeing the first patient, Lucas, who has been in the consultation room for the past 2 minutes. Assuming that the average consultation times per patient for both doctors remain as 3 minutes and 4 minutes respectively, what will John’s estimated waiting time be when he joins the queue?**
