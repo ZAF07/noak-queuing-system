@@ -17,8 +17,9 @@ There are many factors that can affect the consultation time. These include emer
 
 ### Case Study
 
-Please explain your answers and provide workings, where applicable.
-Clinic X has 1 doctor. The doctor’s average consultation time is 3 minutes per patient. Currently, there are 5 patients in the queue and the doctor is not seeing any patient. John decides to queue online and he becomes the 6th patient in the queue, having 5 patients ahead of him. Since there are 5 patients ahead and each taking 3 minutes on average, the waiting time for John is estimated to be 15 minutes.
+**Please explain your answers and provide workings, where applicable.**
+
+<p>Clinic X has 1 doctor. The doctor’s average consultation time is 3 minutes per patient. Currently, there are 5 patients in the queue and the doctor is not seeing any patient. John decides to queue online and he becomes the 6th patient in the queue, having 5 patients ahead of him. Since there are 5 patients ahead and each taking 3 minutes on average, the waiting time for John is estimated to be 15 minutes.</p>
 <br/>
 
 #### Question 1:
