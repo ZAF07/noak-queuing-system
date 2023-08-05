@@ -17,7 +17,7 @@ export default class Clinic {
     if (this.doctors.length < 1) {
       console.log(
         chalk.redBright(
-          "There are no doctors to remove currently. Go ahead and add them..."
+          "\nThere are no doctors to remove currently. Go ahead and add them..."
         )
       );
       return;
@@ -57,7 +57,7 @@ export default class Clinic {
     if (this.doctors.length < 1) {
       console.log(
         chalk.redBright(
-          "There are currently no doctors. Go ahead and add them.."
+          "\nThere are currently no doctors. Go ahead and add them.."
         )
       );
       return;
@@ -77,8 +77,28 @@ export default class Clinic {
    * Logs the estimated waiting time a user might expect to wait for consultation.
    */
   getWaitTime(qNum) {
+    // Make sure patients enter valid Q number
+    if (qNum < 1) {
+      console.log(
+        chalk.redBright(
+          '\nYou have entered an incorrect Q number. Please enter a valid Q number starting from "1"...'
+        )
+      );
+      return;
+    }
+
     // Get the number of doctors available in the clinic
     const availDoctors = this.doctors.length;
+
+    // If there are no doctors, we cannot calculate a patient's estimated waiting time
+    if (availDoctors < 1) {
+      console.log(
+        chalk.redBright(
+          "\nSorry as there are no available doctors right now, we cannot calculate your estimated waiting time..."
+        )
+      );
+      return;
+    }
 
     // Determine the patient's default assigned doctor
     const assignedDoc = this.doctors[qNum % availDoctors];
@@ -102,7 +122,7 @@ export default class Clinic {
       )}: Dr ${docName}, ${chalk.greenBright(
         "Room Number:"
       )} ${roomName}, ${chalk.greenBright(
-        "Average concult time: "
+        "Average consult time: "
       )} ${avgConsultTime}, ${chalk.greenBright(
         "Patients ahead of you: "
       )} ${patientsAhead}, ${chalk.greenBright(

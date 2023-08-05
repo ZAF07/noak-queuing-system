@@ -28,7 +28,7 @@ const addDoctorToClinic = (clinic) => {
   const newDoctor = new Doctor(avgTime, doctorName);
   clinic.addDoctor(newDoctor);
 
-  console.log(chalk.bgGreenBright("Doctor added successfully!\n"));
+  console.log(chalk.bgGreenBright("\nDoctor added successfully!\n"));
 };
 
 const removeDoctor = (clinic) => {
