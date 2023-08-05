@@ -32,7 +32,7 @@ This is the plain implementatioin of the bonus section given in the case study.
 
 #### Answer:
 
-<p>The countdown timer should start only when the doctor starts the consultation with the patient. John may have joined the queue at 2pm. Based off the calculations given above (3(minutes) \* 5 (patients) = 15 minutes), if we start the countdown timer the moment John joins the queue, he would expect to consult the doctor at 215pm. However, if the doctor hasn’t provided consultation to the first patient, we cannot determine the expected consultation time for John or any other patients for that matter.</p>
+<p>The countdown timer should start only when the doctor starts the consultation with the first patient. John may have joined the queue at 2pm. Based off the calculations given above (3(minutes) \* 5 (patients) = 15 minutes), if we start the countdown timer the moment John joins the queue, he would expect to consult the doctor at 215pm. However, if the doctor hasn’t provided consultation to the first patient, we cannot determine the expected consultation time for John or any other patients for that matter.</p>
 <br/>
 
 #### Solution:
