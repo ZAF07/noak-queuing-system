@@ -26,7 +26,7 @@ To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
 # Background
 
-[back](#table-of-contents)
+[^](#table-of-contents)
 
 **You are working on an online queuing system for clinics that only accept walk-in patients. Through this system, walk-in patients can now queue online and receive real-time updates to their waiting time. Unlike appointments, patients who queue online cannot select their preferred time slots – the system helps them secure a spot in the queue and provides real-time updates to their waiting time based on their queue status.**
 <br/>
