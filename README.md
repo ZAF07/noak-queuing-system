@@ -71,7 +71,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 #### Answer:
 
-<p>24 minutes. With 15 patients in line, given that the doctors take 3 and 4 minutes individually to provide consultation, we see a pattern that at the 12th minute, each doctor would have been estimated to have done consulting a total of 7 patients. That makes one block. Given that John joins the queue at number 15, this would  place him as the first person in the 3rd block of patients. So that means he has to wait an estimated 24 minutes for his consultation. </P>
+<p>John's estimated waiting time could be either 24 or 21 minutes depending on which doctor was automatically assigned to him (since all patients had no preferences for the doctors they want to consult). </p>
 
 #### Question 2:
 

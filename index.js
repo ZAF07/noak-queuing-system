@@ -2,12 +2,12 @@
 const doctors = [
   {
     docName: "Dr Jack",
-    avgConsultTime: 3,
+    avgConsultTime: 4,
     roomNumber: 1,
   },
   {
     docName: "Dr Tim",
-    avgConsultTime: 5,
+    avgConsultTime: 3,
     roomNumber: 2,
   },
 ];
@@ -53,5 +53,5 @@ const calcWaitTime = (qNum, doctors) => {
   return `\nDoctor assigned: ${docName}, Room number: ${roomNumber}, Average consult time: ${avgConsultTime}, Patients ahead of you: ${patientsAhead}, Estimated wait time: ${estWaitTime}\n`;
 };
 
-const result = calcWaitTime(5, doctors);
+const result = calcWaitTime(15, doctors);
 console.log("response: ", result);
