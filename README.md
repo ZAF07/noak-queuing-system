@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Section 1](#Background)
+- [Background](#Background)
 - [Section 2](#Question-1)
 - [Section 3](#section-3)
 
