@@ -50,7 +50,6 @@ Suppose the case has changed – at the time John queues online, there are 7 pat
 #### Case Study 2
 
 <p>Clinic Y has 2 doctors, Doctor A and Doctor B. The average consultation times per patient are 3 minutes for Doctor A and 4 minutes for Doctor B. Currently, there are 14 patients in the queue and both doctors are not seeing any patient. John decides to queue online and he becomes the 15th patient in the queue, with 14 patients ahead of him. </P>
-<br/>
 
 #### Question 1:
 
@@ -60,7 +59,6 @@ Suppose the case has changed – at the time John queues online, there are 7 pat
 #### Answer:
 
 <p>24 minutes. With 15 patients in line, given that the doctors take 3 and 4 minutes individually to provide consultation, we see a pattern that at the 12th minute, each doctor would have been estimated to have done consulting a total of 7 patients. That makes one block. Given that John joins the queue at number 15, this would  place him as the first person in the 3rd block of patients. So that means he has to wait an estimated 24 minutes for his consultation. </P>
-<br/>
 
 #### Question 2:
 
