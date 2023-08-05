@@ -26,7 +26,7 @@ To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
 # Background
 
-[^](#table-of-contents)
+[<span>table of content</span>](#table-of-contents)
 
 **You are working on an online queuing system for clinics that only accept walk-in patients. Through this system, walk-in patients can now queue online and receive real-time updates to their waiting time. Unlike appointments, patients who queue online cannot select their preferred time slots – the system helps them secure a spot in the queue and provides real-time updates to their waiting time based on their queue status.**
 <br/>
@@ -44,7 +44,7 @@ To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
 #### C1 Question 1:
 
-[^](#table-of-contents)
+[<span>table of content</span>](#table-of-contents)
 
 **When should the countdown in waiting time, i.e. from 15 minutes, start for John? The moment he queues online, or when the doctor starts seeing the first patient in the queue?**
 <br/>
@@ -61,7 +61,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 #### C1 Question 2:
 
-[^](#table-of-contents)
+[<span>table of content</span>](#table-of-contents)
 
 **Suppose the case has changed – at the time John queues online, there are 7 patients ahead of him and the doctor is currently seeing one of the 7 patients, Peter. Assuming that the doctor’s average consultation time per patient is 4 minutes, what will John’s estimated waiting time be given that, at the time John joins the queue, Peter has already gone to the consultation room for the following durations?**
 **(a) 2 minutes (b) 5 minutes**
@@ -87,7 +87,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 #### C2 Question 1:
 
-[^](#table-of-contents)
+[<span>table of content</span>](#table-of-contents)
 
 **Assuming that all the patients in the queue, including John, have no specific preferences for the doctors they want to consult, what will John’s estimated waiting time be when he joins the queue?**
 <br/>
