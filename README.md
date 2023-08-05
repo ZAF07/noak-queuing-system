@@ -4,6 +4,11 @@ This is simply the plain implementatioin of the bonus section given in the case 
 
 > Note: To view and interact with the interactive version of the section, checkout the **main branch**: `git checkout main`
 
+**To run**
+
+1. Clone the repository into your local machine
+2. Simply run `node index.js` at the root of the project
+
 ## Background
 
 **You are working on an online queuing system for clinics that only accept walk-in patients. Through this system, walk-in patients can now queue online and receive real-time updates to their waiting time. Unlike appointments, patients who queue online cannot select their preferred time slots – the system helps them secure a spot in the queue and provides real-time updates to their waiting time based on their queue status.**
