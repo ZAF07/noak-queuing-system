@@ -104,7 +104,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 #### C2 Question 2:
 
-[^](#table-of-contents)
+[<span>top</span>](#table-of-contents)
 
 **Suppose the case has changed – at the time John queues online, there are 14 patients ahead of him and while Doctor A is not seeing any patient (i.e. Doctor A is available), Doctor B is currently seeing the first patient, Lucas, who has been in the consultation room for the past 2 minutes. Assuming that the average consultation times per patient for both doctors remain as 3 minutes and 4 minutes respectively, what will John’s estimated waiting time be when he joins the queue?**
 
