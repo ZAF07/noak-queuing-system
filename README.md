@@ -5,7 +5,7 @@
 >
 > 1.  Add/remove doctors from the clinic
 > 2.  List all the doctors in the clinic
-> 3.  Set a patient's average waiting time to consultation
+> 3.  Get a patient's average waiting time to consultation
 
 To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
