@@ -9,14 +9,13 @@
 > NOTE: This is the interactive version of the case study.
 > For simplicity, assume all the patients in the queue have no preference for the doctors they want to consult and all the doctors are available and not seeing any patient initially
 
-**You will find the answers to the case study included in this README doc as well.(Scroll down to view)**
-
 > You can:
 >
 > 1.  Add/remove doctors from the clinic
 > 2.  List all the doctors in the clinic
 > 3.  Get a patient's average waiting time to consultation
 
+**You will find the answers to the case study included in this README doc as well.(Scroll down to view)**
 To view the plain algorithm, checkout the **bonus branch**: `git checkout bonus`
 
 **Starting the application locally**
