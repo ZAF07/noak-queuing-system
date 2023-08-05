@@ -1,3 +1,11 @@
+### Table of Contents
+
+- [Background](#background)
+- [C1 Question 1](#c1-question-1)
+- [C1 Question 2](#c1-question-2)
+- [C2 Question 1](#c2-question-1)
+- [C2 Question 2](#c2-question-2)
+
 ## Bonus Section Algorithm
 
 This is the plain implementatioin of the bonus section given in the case study.
@@ -32,7 +40,7 @@ Write an algorithm in JavaScript to calculate patient’s estimated waiting time
 **Clinic X has 1 doctor. The doctor’s average consultation time is 3 minutes per patient. Currently, there are 5 patients in the queue and the doctor is not seeing any patient. John decides to queue online and he becomes the 6th patient in the queue, having 5 patients ahead of him. Since there are 5 patients ahead and each taking 3 minutes on average, the waiting time for John is estimated to be 15 minutes.**
 <br/>
 
-#### Question 1:
+#### C1 Question 1:
 
 **When should the countdown in waiting time, i.e. from 15 minutes, start for John? The moment he queues online, or when the doctor starts seeing the first patient in the queue?**
 <br/>
@@ -47,7 +55,7 @@ Write an algorithm in JavaScript to calculate patient’s estimated waiting time
 <p>We could set up a feature for the doctors to send statuses to the system. This could include time to first consultation (they could be attending to an emergency or simply on a short break), whether or not they have started with the first patient in the queue and if there are any expected delays or if any patient has cancelled their consultation. 
 That way, there is constant communication between the doctors -> servers -> patients, and with that, we could potentially provide accurate average waiting times.  Since it is real-time, we can perform recalculations instantly for patients to be notified with the updated  average waiting time.</p>
 
-#### Question 2:
+#### C1 Question 2:
 
 **Suppose the case has changed– at the time John queues online, there are 7 patients ahead of him and the doctor is currently seeing one of the 7 patients, Peter. Assuming that the doctor’s average consultation time per patient is 4 minutes, what will John’s estimated waiting time be given that, at the time John joins the queue, Peter has already gone to the consultation room for the following durations?**
 **(a) 2 minutes (b) 5 minutes**
@@ -71,7 +79,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 **Clinic Y has 2 doctors, Doctor A and Doctor B. The average consultation times per patient are 3 minutes for Doctor A and 4 minutes for Doctor B. Currently, there are 14 patients in the queue and both doctors are not seeing any patient. John decides to queue online and he becomes the 15th patient in the queue, with 14 patients ahead of him.**
 
-#### Question 1:
+#### C2 Question 1:
 
 **Assuming that all the patients in the queue, including John, have no specific preferences for the doctors they want to consult, what will John’s estimated waiting time be when he joins the queue?**
 <br/>
@@ -86,7 +94,7 @@ That way, there is constant communication between the doctors -> servers -> pati
 
 <p>Upon receiving the request from a user to check thier waiting time (now that we already know which doctor a patient is assigned to), we can simply calculate each patient's waiting time by multiplying the doctor's estimated consult time by the number of patients in that doctors list,</p>
 
-#### Question 2:
+#### C2 Question 2:
 
 **Suppose the case has changed – at the time John queues online, there are 14 patients ahead of him and while Doctor A is not seeing any patient (i.e. Doctor A is available), Doctor B is currently seeing the first patient, Lucas, who has been in the consultation room for the past 2 minutes. Assuming that the average consultation times per patient for both doctors remain as 3 minutes and 4 minutes respectively, what will John’s estimated waiting time be when he joins the queue?**
 
