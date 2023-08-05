@@ -19,12 +19,12 @@ When should the countdown in waiting time, i.e. from 15 minutes, start for John?
 
 #### Answer:
 
-The countdown timer should start only when the doctor starts the consultation with the patient. John may have joined the queue at 2pm. Based off the calculations given above (3(minutes) \* 5 (patients) = 15 minutes), if we start the countdown timer the moment John joins the queue, he would expect to be consult the doctor at 215pm. However, if the doctor hasn’t provided consultation to the first patient, we cannot determine the expected consultation time for John or any other patients for that matter.
+The countdown timer should start only when the doctor starts the consultation with the patient. John may have joined the queue at 2pm. Based off the calculations given above (3(minutes) \* 5 (patients) = 15 minutes), if we start the countdown timer the moment John joins the queue, he would expect to consult the doctor at 215pm. However, if the doctor hasn’t provided consultation to the first patient, we cannot determine the expected consultation time for John or any other patients for that matter.
 <br/>
 
 #### Solution:
 
-<p>We could set up a system for the doctors to send statuses to the system. This could include time to first consultation (they could be attending to an emergency or simply on a short break), whether to not they have started with the first patient in the queue and if there are any expected delay or if a patient has cancelled their consultation. 
+<p>We could set up a feature for the doctors to send statuses to the system. This could include time to first consultation (they could be attending to an emergency or simply on a short break), whether or not they have started with the first patient in the queue and if there are any expected delays or if any patient has cancelled their consultation. 
 That way, there is constant communication between the doctors -> servers -> patients, and with that, we could potentially provide accurate average waiting times.  Since it is real-time, we can perform recalculations instantly for patients to be notified with the updated  average waiting time.</p>
 
 #### Question 2:
@@ -35,13 +35,14 @@ Suppose the case has changed – at the time John queues online, there are 7 pat
 
 #### Answers:
 
-A. 26 B. 24
+**A. 26 B. 24**
 <br/>
-#####Part A:
 
-<p>John will have to wait a total of 26 minutes. Calculations are 4 minutes average time x 6 (full average duration for people who are still waiting themselves) + 2 (time left for Peter’s consultation)</P>
+**Part A:**
 
-##### Part B:
+<p>John will have to wait a total of 26 minutes. Calculations are 4 minutes average doctor consultation time x 6 (full average duration for people who are ahead of John) + 2 (time remaining for Peter’s consultation)</P>
+
+**Part B:**
 
 <p>John will have to wait 24 mins on average (4 minutes per 6 people still in the queue),  (assuming that Peter will be done with his consultation anytime now given that the doctor has already gone over the average consultation time)</p>
 <br/>
