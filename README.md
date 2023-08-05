@@ -2,6 +2,8 @@
 
 This is the plain implementatioin of the bonus section given in the case study.
 
+**You will find the answers to the case study included in this README doc too.(Scroll down to view)**
+
 > Note: To view and interact with the interactive version of the section, checkout the **main branch**: `git checkout main`
 
 ### Bonus
